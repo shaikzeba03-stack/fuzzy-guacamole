@@ -1,174 +1,202 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <img src="logoimage.jpg" alt="Phlorenzaa Flower World" style="width:120px;"> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phlorenzaa | Handcrafted Gifts</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
   <style>
     body {
       margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #faf8f6;
+      font-family: 'Poppins', sans-serif;
+      background: #fffaf7;
       color: #333;
     }
-    header {
-      background: #ffffff;
-      padding: 20px;
-      text-align: center;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+
+    h1, h2 {
+      font-family: 'Playfair Display', serif;
     }
-    header h1 {
-      margin: 0;
-      font-size: 2rem;
-    }
-    header p {
-      margin: 5px 0 0;
-      color: #777;
-    }
-    nav {
-      margin-top: 15px;
-    }
-    nav a {
-      margin: 0 12px;
-      text-decoration: none;
-      color: #555;
-      font-weight: 500;
-    }
-    section {
-      padding: 50px 20px;
-      max-width: 1000px;
-      margin: auto;
-    }
+
+    /* HERO */
     .hero {
       text-align: center;
+      padding: 70px 20px;
+      background: linear-gradient(rgba(255,250,247,0.9), rgba(255,250,247,0.9)),
+                  url("images/hero.jpg");
+      background-size: cover;
+      background-position: center;
     }
-    .hero h2 {
-      font-size: 2.2rem;
+
+    .hero h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
     }
+
+    .hero p {
+      font-size: 16px;
+      margin-bottom: 25px;
+    }
+
     .btn {
       display: inline-block;
-      margin: 15px 10px;
-      padding: 12px 25px;
-      background: #c9a24d;
-      color: #fff;
-      text-decoration: none;
+      padding: 12px 22px;
       border-radius: 25px;
+      text-decoration: none;
+      font-size: 14px;
+      margin: 5px;
     }
-    .grid {
+
+    .btn-instagram {
+      background: #e1306c;
+      color: white;
+    }
+
+    .btn-whatsapp {
+      background: #25D366;
+      color: white;
+    }
+
+    /* SECTION */
+    section {
+      padding: 50px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 32px;
+    }
+
+    /* PRODUCTS */
+    .products {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 20px;
+      gap: 25px;
     }
+
     .card {
-      background: #fff;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      background: white;
+      border-radius: 18px;
+      overflow: hidden;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+      text-align: center;
+      padding-bottom: 20px;
+    }
+
+    .card img {
+      width: 100%;
+      height: 230px;
+      object-fit: cover;
+    }
+
+    .card h3 {
+      margin: 15px 10px 10px;
+      font-size: 18px;
+    }
+
+    .card a {
+      display: inline-block;
+      margin-top: 8px;
+      font-size: 14px;
+      color: #e1306c;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    /* CUSTOM */
+    .custom-box {
+      background: #fff0f5;
+      padding: 35px;
+      border-radius: 20px;
       text-align: center;
     }
+
+    /* FOOTER */
     footer {
-      background: #ffffff;
       text-align: center;
-      padding: 20px;
-      font-size: 0.9rem;
-      color: #777;
+      padding: 25px;
+      background: #f6e9e6;
+      font-size: 14px;
+    }
+
+    /* WHATSAPP FLOAT */
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25D366;
+      color: white;
+      padding: 14px 16px;
+      border-radius: 50%;
+      font-size: 20px;
+      text-decoration: none;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
     }
   </style>
 </head>
-<body><header>
-  <h1>Phlorenzaa</h1>
-  <p>Artificial bouquets • Chocolate bouquets • Gift hampers • Custom gifts</p>
-  <nav>
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#catalog">Catalog</a>
-    <a href="#payment">Payment</a>
-    <a href="#contact">Contact</a>
-  </nav>
-</header><section id="home" class="hero">
-  <h2>Beautiful Handcrafted Gifts for Every Occasion</h2>
-  <p>Elegant, customised gifts made with love for your special moments.</p>
-  <a class="btn" href="#catalog">View Catalog</a>
-  <a class="btn" href="#contact">Order on Instagram</a>
-</section><section id="about">
-  <h2>About Us</h2>
-  <p>
-    We specialise in handcrafted artificial bouquets, chocolate bouquets,
-    keychains and gift hampers. Each product is thoughtfully designed to
-    make your gifting moments memorable.
-  </p>
-  <p>
-    Customisation is available to match your preferences and occasions.
-  </p>
-</section><section id="catalog">
-  <h2>Our Catalog</h2>
-  <div class="grid grid-cols-1 md:grid-cols-3 gap-12 max-w-6xl mx-auto">
-    <div class="group">
-        <img src="choco-bouquet-1.jpg" class="w-full aspect-square object-cover">
-        <h3 class="text-lg italic">Chocolate Dream</h3>
-    </div>
-    <div class="group">
-        <img src="custom-bouquet-2.jpg" class="w-full aspect-square object-cover">
-        <h3 class="text-lg italic">Elegant Custom</h3>
-    </div>
-    <div class="group">
-        <img src="choco-bouquet-3.jpg" class="w-full aspect-square object-cover">
-        <h3 class="text-lg italic">Sweet Serenity</h3>
-    </div>
+
+<body>
+
+  <!-- HERO -->
+  <div class="hero">
+    <h1>Phlorenzaa</h1>
+    <p>Handcrafted Bouquets & Gift Hampers</p>
+    <a href="https://instagram.com/YOUR_INSTAGRAM" class="btn btn-instagram">Order via Instagram</a>
+    <a href="https://wa.me/91XXXXXXXXXX" class="btn btn-whatsapp">Order on WhatsApp</a>
   </div>
-  
-    <div class="card"><img src="custom-bouquet-2.jpg">
-<img src="custom-bouquet-2.jpg">
-<img src="custom-bouquet-3.jpg">
-<img src="custom-bouquet-5.jpg">
-<img src="custom-bouquet-6.jpg">
- alt="Artificial Bouquets"><br>Artificial Handcrafted Bouquets<br><small>Customisation available</small></div>
-     <div class="card"><img src="Artificial Bouquet.jpg">
-  <img src="Artificial Bouquet2.jpg">
-  <div class="card"><img src="small-custom-bouquet-1.jpg">
-<img src="small-custom-bouquet-2.jpg">
-<img src="small-custom-bouquet-3.jpg">
- alt="Chocolate Bouquets"><br>Chocolate Bouquets<br><small>Perfect for sweet surprises</small></div>
-    <div class="card"><img src="choco-bouquet-1.jpg">
-<img src="choco-bouquet-2.jpg">
-<img src="choco-bouquet-3.jpg">
-<img src="choco-bouquet-4.jpg">
-<img src="choco-bouquet-5.jpg">
-<img src="choco-bouquet-6.jpg">
-<img src="choco-bouquet-7.jpg">
-<img src="choco-bouquet-8.jpg">
-<img src="choco-bouquet-9.jpg">
-<img src="choco-bouquet-10.jpg">
- alt=""><br><small>Ideal for all occasions</small></div>
-<div class="card">
-    <img src="keychain1.jpg" alt="">
-    <img src="keychain2.jpg" alt="">
-    <img src="keychain3.jpg" alt="">
-    <br>Keychains
-</div>
-</div>
+
+  <!-- PRODUCTS -->
+  <section>
+    <h2 class="section-title">Best Sellers</h2>
+    <div class="products">
+
+      <div class="card">
+        <img src="images/product1.jpg">
+        <h3>Chocolate Bouquet</h3>
+        <a href="https://instagram.com/YOUR_INSTAGRAM">DM for Price</a>
+      </div>
+
+      <div class="card">
+        <img src="images/product2.jpg">
+        <h3>Gift Hamper</h3>
+        <a href="https://instagram.com/YOUR_INSTAGRAM">DM for Price</a>
+      </div>
+
+      <div class="card">
+        <img src="images/product3.jpg">
+        <h3>Artificial Flower Bouquet</h3>
+        <a href="https://instagram.com/YOUR_INSTAGRAM">DM for Price</a>
+      </div>
+
+      <div class="card">
+        <img src="images/product4.jpg">
+        <h3>Customized Keychains</h3>
+        <a href="https://instagram.com/YOUR_INSTAGRAM">DM for Price</a>
+      </div>
+
     </div>
-    <p class="text-center mt-2 uppercase text-[10px] tracking-widest text-stone-400">Handmade Details</p>
-  </div>
-  </div>
-</section><section id="payment">
-  <h2>Payment Information</h2>
-  <p><strong>Payment Method:</strong> UPI only</p>
-  <p><strong>Payment Type:</strong> Full payment in advance</p>
-  <p><strong>Cash on Delivery:</strong> Not available</p>
-  <p>
-    Steps to order:<br>
-    1. Select a product from the catalog<br>
-    2. Contact us on Instagram<br>
-    3. Complete UPI payment<br>
-    4. Order confirmation
-  </p>
-</section><section id="contact">
-  <h2>Contact Us</h2>
-  <p>
-    📸 Instagram: <strong>@phlorenzaa</strong><br>
-    DM us on Instagram to place your order or request customisation.
-  </p>
-</section><footer>
-  © 2026 Handcrafted Gift Studio. All rights reserved.
-</footer></body>
-</html>
+  </section>
+
+  <!-- CUSTOMIZATION -->
+  <section>
+    <div class="custom-box">
+      <h2>Customization Available 💝</h2>
+      <p>Names • Colors • Occasions • Bulk Orders</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    © Phlorenzaa | Made with love 🌸
+  </footer>
+
+  <!-- WHATSAPP FLOAT -->
+  <a class="whatsapp-float" href="https://wa.me/91XXXXXXXXXX">💬</a>
+
+</body>
+</html> 
